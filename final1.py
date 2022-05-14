@@ -189,10 +189,10 @@ if authentication_status:
         
         if st.sidebar.button("Add Subject"):
             get_data_subject().append({"Subject_ID": subject_id, 
-                           "Subject_Name":           subject_name, 
-                           "Subject_Date_Time":          subject_date_time,
-                           "Subject_Attendance_Grad":     subject_Att_Grad,
-                           "Subject_HomWork_Grad":        subject_home_work,
+                           "Subject_Name": subject_name, 
+                           "Subject_Date_Time":subject_date_time,
+                           "Subject_Attendance_Grad":subject_Att_Grad,
+                           "Subject_HomWork_Grad":subject_home_work,
                            "Subject_Exam_Grad":subject_exam,
                            "Subject_Contribution":subject_Contribution})
             st.write("## Show Teacher Dataset")
