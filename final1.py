@@ -53,6 +53,9 @@ if authentication_status:
             st.write("## Show Admin Dataset")
             st.write(df_admins)
             st.write(df_admins.shape)
+            
+        if st.button("Show Dataset") :
+            st.write(df_admins)
         
             
         
@@ -97,7 +100,9 @@ if authentication_status:
             st.write("## Show Teacher Dataset")
             st.write(df_teachers)
             st.write(df_teachers.shape)
-        
+            
+        if st.button("Show Dataset") :
+            st.write(df_teachers)
             
         
         
@@ -142,6 +147,9 @@ if authentication_status:
             st.write("## Show Student Dataset")
             st.write(df_students)
             st.write(df_students.shape) 
+            
+       if st.button("Show Dataset") :
+            st.write(df_students)
             
             
            
@@ -190,7 +198,9 @@ if authentication_status:
             st.write("## Show Teacher Dataset")
             st.write(df_subjects)
             st.write(df_subjects.shape)
-        
+            
+        if st.button("Show Dataset") :
+            st.write(df_subjects)
             
         
         
